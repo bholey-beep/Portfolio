@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+  --purple-light: #a18cd1;
+  --purple-dark: #6b48ff;
+  --text: #f4f4f4;
+  --bg: #1e1a2b;
+}
+
+body {
+  
+  font-family:"Times, Times New Roman, serif";
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 1s, color 1s;
+}
+
+ .bhola{
+    position:relative;
+    margin-bottom: 200px;
+    
+}
+.video{
+  position: absolute;
+}
+.hero{
+    position:absolute;
+    top: 60px;
+    left:150px;
+    color:#fff;
+    
+}
+.light-mode .hero{
+  color:black;
+}
+.container {
+  
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* .hero {
+    background-image:url('desktop.png');
+
+  background: linear-gradient(135deg, rgb(119 13 119), rgb(0 0 0));
+  text-align: center;
+  color: white;
+  
+} */
+
+.hero h1 span {
+  color: #fff0f6;
+}
+.lightmode{
+  color:black;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+    border: black;
+    background: #fff;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+  background: grey;
+  color: white;
+}
+
+.light-mode button:hover {
+  background: grey;
+  color: white;
+}
+
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid var(--purple-light);
+  padding-left: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #9d96b1;
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #111;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+body {
+  transition: background-color 1s, color 1s;
+  background-color: #121212;
+  color: white;
+}
+
+.light-mode,
+.light-mode button,
+.light-mode nav,
+.light-mode .back {
+  background: linear-gradient(to right, #8f8d9575, #f7f7f7);
+  color: black;
+}
+
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: black;
+  color:white;
+}
+/* Initial state: hidden and offscreen */
+
+
+
+
+
+/* Visible state: fade + slide to original position */
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.navbar {
+  background-color: #000000;
+  color: white;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.2); */
+  transition: background-color 0.3s,color 0.3s;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color:white;
+  font-weight: 600;
+  
+}
+
+.nav-links li a:hover {
+  color: var(--purple-dark);
+}
+.light-mode .nav-links li a{
+  color:black;
+}
+   
+   
+
+    .her{
+         
+       /* 🔁 Replace with your image path */
+      /* background-size: ; */
+       width: 99vw;
+  height: 60vh;
+  object-fit: cover;    /* Key to fitting */
+  border-radius: 10px;
+      
+      background-position: center;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      font-size: 2rem;
+      font-family: Arial, sans-serif;
+      position: relative;
+      padding-top: 0px;
+    }
+
+    
+.light-mode, .dark-mode {
+  transition: background-color 1s ease, color 1s ease;
+}
+  nav, header, section, footer, button  {
+  transition: background-color 1s ease, color 1s ease;
+}
+
+.h{
+  position: relative;
+   width: 200px;
+   height: 200px;
+    border-radius: 50%;
+     border-color: #000000;
+     margin-top: 90px;
+     margin-left: 800px;
+     border-width: 10px;
+     border: 2px solid #000000;
+     
+}
+.spacer {
+  margin-top: 500px;
+}
+.space{
+  margin-top: 80px;
+}
+.back{
+  border-radius: 9px;
+  padding-left: 6px 
+}
