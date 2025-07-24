@@ -25,7 +25,7 @@ const Projects = () => {
     </div>
     <div data-aos="fade-right" className="bg-[#9d96b1] p-2 rounded-lg">
       <h3 className="text-xl font-bold">Clear the Clutter</h3>
-      <p>A utility script that organizes files into folders based on their file extensions. <a href="/public/organizer.bat"  className="text-black font-bold underline">Download</a>
+      <p>A utility script that organizes files into folders based on their file extensions. <a href="/organizer.bat"  className="text-black font-bold underline">Download</a>
     </p>
      </div>
   </div>
