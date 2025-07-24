@@ -18,11 +18,13 @@ function Header({ toggleMode, isDarkMode }) {
 </div>
  <div className=" ">
       <div className="flex flex-col items-start px-4 sm:px-8 py-6 ">
-  <h2 className="max-w-[400px] w-full font-bold bg-white dark:bg-transparent rounded-xl px-3 text-[clamp(1.5rem,4vw,2.5rem)] leading-snug bg-gradient-to-r from-[#00000075] to-[#f7f7f7] sticky top-0 z-50 transition">
+  <h2 className="max-w-[400px] w-full font-bold bg-white dark:bg-transparent rounded-xl px-3 text-[clamp(1.5rem,4vw,2.5rem)] leading-snug bg-gradient-to-r from-[#80808075]
+ to-[#f7f7f7] sticky top-0 z-50 transition">
     Hello, I'm B.P Sah
   </h2>
   
-  <h3 className="max-w-[400px] w-full font-medium bg-white dark:bg-transparent rounded-xl px-3 py-2 mt-4 text-[clamp(1rem,3vw,1.5rem)] leading-snug bg-gradient-to-r from-[#00000075] to-[#f7f7f7] sticky top-0 z-50 transition">
+  <h3 className="max-w-[400px] w-full font-medium bg-white dark:bg-transparent rounded-xl px-3 py-2 mt-4 text-[clamp(1rem,3vw,1.5rem)] leading-snug bg-gradient-to-r from-[#80808075]
+ to-[#f7f7f7] sticky top-0 z-50 transition">
     Frontend Developer | UI/UX Designer
   </h3>
 </div>
