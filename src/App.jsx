@@ -25,22 +25,27 @@ import Footer from './Footer';
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <Navbar/>
       <Header toggleMode={toggleMode} isDarkMode={darkMode} />
-    <div className="spacer">
+    <div className="py-20">
+      
 
-    </div>
+    </div >
       <About/>
-      <div className="space">
+      <div className="py-10">
       
     </div>
       <Skills/>
-      <div className="space">
+      <div className="py-10">
       
     </div>
       <Projects/>
-      <div className="space">
+      <div className="py-10">
       
     </div>
       <Contact/>
+       <div className="py-3">
+      
+    </div>
+     
       <Footer/>
     </div>
   );

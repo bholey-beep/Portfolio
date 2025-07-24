@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
-      <p>© 2025 Your Name. Crafted with 💜 and creativity.</p>
-    </footer>
-  )
+    <footer className="text-center py-6 bg-[#111] text-gray-400 text-sm">
+  <p>© Bhola Prasad sah. Crafted with 💜 and creativity.</p>
+</footer>
+)
 }
 
 export default Footer
