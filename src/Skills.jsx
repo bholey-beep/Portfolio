@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 const Skills = () => {
   useEffect(() => {
-      AOS.init({ duration: 1000 });
+      AOS.init({ duration: 500 });
     }, []);
   
   return (
