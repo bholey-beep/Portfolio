@@ -28,7 +28,7 @@ const Projects = () => {
   <p>
   A utility script that organizes files into folders based on their file extensions.
   <a
-    href="https://github.com/bholey-beep/clutter/archive/refs/tags/v1.0.0.zip"
+    href="/clutter.zip"
     download
     class="text-black font-bold underline"
   >
