@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 const Contact = () => {
    useEffect(() => {
-      AOS.init({ duration: 2000,
+      AOS.init({ duration: 500,
         once:true
        });
     }, []);
