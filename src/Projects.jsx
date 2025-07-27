@@ -25,9 +25,14 @@ const Projects = () => {
     </div>
     <div data-aos="fade-right" className="bg-[#9d96b1] p-2 rounded-lg">
       <h3 className="text-xl font-bold">Clear the Clutter</h3>
-      <p>A utility script that organizes files into folders based on their file extensions. <a href="https://github.com/bholey-beep/clutter/blob/main/clutter.exe" download  className="text-black font-bold underline">Download</a>
-    </p>
-     </div>
+    <a
+  href="https://raw.githubusercontent.com/bholey-beep/clutter/main/clutter.exe"
+  download
+  class="text-black font-bold underline"
+>
+  Download
+</a>
+   </div>
   </div>
 </section>
 
